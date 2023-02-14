@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Danny Chhouen Portfolio",
   "source": "src/index.html",
-  "homepage": "https://danny-kirby.github.io/cs-project-template",
+  "homepage": "https://www.dannychhouen.me",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://danny-kirby.github.io/cs-project-template'",
+    "build-gh": "parcel build --public-url 'https://www.dannychhouen.me'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
