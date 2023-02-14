@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://www.dannychhouen.me'",
+    "build-gh": "parcel build",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
